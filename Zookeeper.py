@@ -1,3 +1,10 @@
+# This is a very simple program that is meant to simulate a Zookeeper keeping an eye on the animals.
+# The user is asked which enclosure # they would like to look at, once a number is submitted the appropriate enclosure is displayed.
+# Enterting 'exit' terminates the program.
+
+
+
+
 camel = r"""
 Switching on camera from habitat with camels...
  ___.-''''-.
