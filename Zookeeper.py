@@ -4,30 +4,18 @@
 
 
 panda = r"""
-                              
-                                                             -|-_
-                                                              | _
-
-                                                             <|/\
-                                                              | |,
-
-                                                             |-|-o
-                                                             |<|.
-
-                                              _,..._,m,      |,
-                                           ,/'      '"";     | |,
-                                          /             ".
-                                        ,'mmmMMMMmm.      \  -|-_"
-                                      _/-"^^^^^"""%#%mm,   ;  | _ o
-                                ,m,_,'              "###)  ;,
-                               (###%                 \#/  ;##mm.
-                                ^#/  __        ___    ;  (######)
-                                 ;  //.\\     //.\\   ;   \####/
-                                _; (#\"//     \\"/#)  ;  ,/
-                               @##\ \##/   =   `"=" ,;mm/
-                               `\##>.____,...,____,<####@
-                                                     ""'
-                                  Pandas are probably the best animal.."""
+        ;#  ^;     ;'   #,
+        ;    s$$$$$$$s     ;
+        ,  ss$$$$$$$$$$s  ,'
+        ;s$$$$$$$$$$$$$$$
+        $$$$$$$$$$$$$$$$$$
+       $$$$P##Y$$$Y##W$$$$$
+       $$$$  p#$$$#q  $$$$$
+       $$$$  .$$$$$.  $$$$
+        $$DcaU$$$$$$$$$$
+          #Y$$$#*#$$$Y#    
+            #$b.$$"     
+Pandas are probably the best animal.."""
 
 camel = r"""
 Switching on camera from habitat with camels...
@@ -162,7 +150,7 @@ while quit_program is False:
     habitat = input()
 
     if habitat == "0":
-        print(camel)
+        print(panda
 
     if habitat == "1":
         print(lion)
@@ -180,7 +168,7 @@ while quit_program is False:
         print(rabbit)
 
     if habitat == "6":
-        print(panda)                 
+        print(rabbit)            
     if habitat == "exit":
         print("See you!")
         quit_program = True
