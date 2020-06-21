@@ -3,7 +3,31 @@
 # Enterting 'exit' terminates the program.
 
 
+panda = r"""
+                              
+                                                             -|-_
+                                                              | _
 
+                                                             <|/\
+                                                              | |,
+
+                                                             |-|-o
+                                                             |<|.
+
+                                              _,..._,m,      |,
+                                           ,/'      '"";     | |,
+                                          /             ".
+                                        ,'mmmMMMMmm.      \  -|-_"
+                                      _/-"^^^^^"""%#%mm,   ;  | _ o
+                                ,m,_,'              "###)  ;,
+                               (###%                 \#/  ;##mm.
+                                ^#/  __        ___    ;  (######)
+                                 ;  //.\\     //.\\   ;   \####/
+                                _; (#\"//     \\"/#)  ;  ,/
+                               @##\ \##/   =   `"=" ,;mm/
+                               `\##>.____,...,____,<####@
+                                                     ""'
+                                  Pandas are probably the best animal.."""
 
 camel = r"""
 Switching on camera from habitat with camels...
@@ -155,6 +179,8 @@ while quit_program is False:
     if habitat == "5":
         print(rabbit)
 
+    if habitat == "6":
+        print(panda)                 
     if habitat == "exit":
         print("See you!")
         quit_program = True
